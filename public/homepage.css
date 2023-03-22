@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* #main {
+  width: 100%;
+  height: 100vh;
+  padding: 15vh 0 0 0;
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: center;
+}
+* #main #createPost {
+  width: 60%;
+  height: 20vh;
+  color: white;
+  border: 1px solid white;
+  padding: 4vw;
+  border-radius: 2vw;
+}
+* #main #createPost #text {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  font-size: 1.7vw;
+}
+* #main #createPost #text::-moz-placeholder {
+  color: #1b1b1b;
+}
+* #main #createPost #text::placeholder {
+  color: #1b1b1b;
+}
+* #main #createPost #text:focus {
+  outline: none;
+}
+* #main #posto {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 55vh;
+}
+* #main #posto #pst {
+  width: 30vw;
+  height: auto;
+  padding: 4vh;
+  border: 1px solid white;
+  border-radius: 2vw;
+  background-color: azure;
+  margin: 0 0 2vh 0;
+  color: black;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+}/*# sourceMappingURL=homepage.css.map */
